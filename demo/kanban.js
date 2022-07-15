@@ -33,16 +33,16 @@ function createTask(){
     }
 }
 
-function saveTask(){
+// function saveTask(){
 
-    var todo = document.getElementById("todo");
-    var taskName = document.getElementById("task-name").value;
-    todo.innerHTML += `
-    <div class="task" id="${taskName.toLowerCase().split(" ").join("")}" draggable="true" ondragstart="drag(event)">
-        <span>${taskName}</span>
-    </div>
-    `
-}
+//     var todo = document.getElementById("todo");
+//     var taskName = document.getElementById("task-name").value;
+//     todo.innerHTML += `
+//     <div class="task" id="${taskName.toLowerCase().split(" ").join("")}" draggable="true" ondragstart="drag(event)">
+//         <span>${taskName}</span>
+//     </div>
+//     `
+// }
 
 function editTask(){
     var saveButton = document.getElementById("save-button");
