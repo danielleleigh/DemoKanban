@@ -1,0 +1,154 @@
+html{
+    background-image: url('https://www.accenture.com/t20200929T081423Z__w__/us-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Hero/14/Accenture-Infinity-Hero-768x768.jpg');
+    background-size: cover;
+    min-height: 100%;
+    box-shadow:inset 0 0 0 2000px rgba(255, 0, 255, 0.4);
+
+}
+
+.container {
+    width: 70%;
+    min-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.kanban-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kanban-heading-text {
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: #30106B;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.kanban-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .kanban-block {
+    width: 25%;
+    min-width: 10rem;
+    min-height: 4.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: auto;
+  }
+
+  #todo {
+    background-color: #301934;
+    color: white;
+  }
+  
+  #inprogress {
+    background-color: #52307C;
+    color: white;
+  }
+  
+  #done {
+    background-color: #bca0dc;
+    color: white;
+  }
+
+  #onhold {
+    background-color: #663a82;
+    color: white;
+  }
+
+  #blocked {
+    background-color: #7c5295;
+    color: white;
+  }
+
+  .task {
+    background-color: rgba(255, 0, 255, 0.4);
+    margin: 0.2rem 0rem 0.3rem 0rem;
+    border: 0.1rem solid white;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.2rem 0.5rem ;
+    text-align: center;
+  }
+  
+  #task-button {
+    margin: 0.2rem 0rem 0.1rem 0rem;
+    background-color: #30106B;
+    border-radius: 0.2rem;
+    width: 100%;
+    border: 0.25rem solid white;
+    padding: 0.5rem ;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    color:white;
+    cursor: crosshair;
+  }
+
+  .create-new-task-block {
+    display: none;
+    display: flex;
+    background: #301934;
+    width: 64.4%;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0.2rem;
+  }
+  
+  .form-row-label {
+    width: 15%;
+    padding: 0.2rem;
+    padding-right: 0.5rem;
+    border: 0.1rem solid white;
+    border-right: 0;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+  }
+  
+  .form-row-input {
+    border: 0.1rem solid white;
+    border-radius: 0rem 0.2rem 0.2rem 0rem;
+    width: 85%;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .form-row-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.2rem;
+  }
+  
+  #edit-button,
+  #save-button,
+  #cancel-button {
+    margin: 0.2rem 0rem 0.1rem 0rem;
+    background-color: #30106B;
+    border-radius: 0.2rem;
+    width: 49.2%;
+    border: 0.25rem solid white;
+    padding: 0.5rem 2.7rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  #edit-button {
+    display: none;
+  }
+  
